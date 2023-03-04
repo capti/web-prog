@@ -26,7 +26,15 @@
                 </ul>
             </div>
         </header>
-        <canvas id="bg" width="100%" height="100%"></canvas>
+        <canvas id="bg" width="100%" height="100%">
+            <script>
+                function draw() {
+                    var ctx = document.getElementById('canvas').getContext('2d');
+                    ctx.font = "48px Montserrat-Black";
+                    ctx.strokeText("Hello world", 10, 50);
+                }
+            </script>
+        </canvas>
         <div class="bg">
             <video class="echo" autoplay muted loop="loop">
                 <source src="./video/echo.mp4" type="video/mp4">
