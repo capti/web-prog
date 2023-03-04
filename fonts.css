@@ -1,0 +1,115 @@
+/* Обычный */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+	font-weight: normal;
+    src: local('Montserrat')
+    url(./fonts/Montserrat-Black.ttf) format('truetype');
+}
+.text-main {
+    font-family: 'Montserrat';
+}
+/* Жирный */
+@font-face {
+    font-family: 'Montserrat Bold';
+    font-style: normal;
+	font-weight: bold;
+    src: local('Montserrat')
+    url(./fonts/Montserrat-Bold.ttf) format('truetype');
+}
+.text-bold {
+	font-family: 'Montserrat Bold';
+	font-weight: bold;
+}
+/* Курсив */
+@font-face {
+    font-family: 'Montserrat Italic';
+    font-style: italic;
+	font-weight: normal;
+    src: local('Montserrat')
+    url(./fonts/Montserrat-Italic.ttf) format('truetype');
+}
+.text-italic {
+	font-family: 'Montserrat Italic';
+	font-style: italic;
+}
+/* Жирный курсив */
+@font-face {
+    font-family: 'Montserrat BoldItalic';
+    font-style: italic;
+	font-weight: bold;
+    src: local('Montserrat')
+    url(./fonts/Montserrat-BoldItalic.ttf) format('truetype');
+}
+.text-bolditalic {
+	font-family: 'Montserrat BoldItalic';
+	font-weight: bold;
+	font-style: italic;
+}
+/* Очень жирный */
+@font-face {
+    font-family: 'Montserrat ExtraBold';
+    font-style: normal;
+	font-weight: bold;
+    src: local('Montserrat')
+    url(./fonts/Montserrat-ExtraBold.ttf) format('truetype');
+}
+.text-extrabold {
+    font-family: 'Montserrat ExtraBold';
+    font-weight: bold;
+}
+/* Очень тонкий */
+@font-face {
+    font-family: 'Montserrat ExtraLight';
+    font-style: normal;
+	font-weight: normal;
+    src: local('Montserrat')
+    url(./fonts/Montserrat-ExtraLight.ttf) format('truetype');
+}
+.text-extralight {
+    font-family: 'Montserrat ExtraLight';
+}
+/* Тонкий */
+@font-face {
+    font-family: 'Montserrat Light';
+    font-style: normal;
+	font-weight: normal;
+    src: local('Montserrat')
+    url(./fonts/Montserrat-Light.ttf) format('truetype');
+}
+.text-light {
+    font-family: 'Montserrat Light';
+}
+/* Средний */
+@font-face {
+    font-family: 'Montserrat Medium';
+    font-style: normal;
+	font-weight: normal;
+    src: local('Montserrat')
+    url(./fonts/Montserrat-Medium.ttf) format('truetype');
+}
+.text-medium {
+    font-family: 'Montserrat Medium';
+}
+/* Средний жирный */
+@font-face {
+    font-family: 'Montserrat SemiBold';
+    font-style: normal;
+	font-weight: normal;
+    src: local('Montserrat')
+    url(./fonts/Montserrat-SemiBold.ttf) format('truetype');
+}
+.text-semibold {
+    font-family: 'Montserrat SemiBold';
+}
+/* Очень тонкий */
+@font-face {
+    font-family: 'Montserrat Thin';
+    font-style: normal;
+	font-weight: normal;
+    src: local('Montserrat')
+    url(./fonts/Montserrat-Thin.ttf) format('truetype');
+}
+.text-thin {
+    font-family: 'Montserrat Thin';
+}
