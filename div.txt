@@ -1,0 +1,5 @@
+<div class="bg">
+            <video class="echo" autoplay muted loop="loop">
+                <source src="./video/echo.mp4" type="video/mp4">
+            </video>
+        </div>
