@@ -5,6 +5,7 @@
     left: 0;
 }
 html {
+    position: fixed;
     overflow-y: hidden;
 }
 ::-webkit-scrollbar {
@@ -15,6 +16,8 @@ html {
     src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,600;0,900;1,300&display=swap')
 }
 body {
+    position: fixed;
+    width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
