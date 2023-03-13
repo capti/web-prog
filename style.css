@@ -4,6 +4,9 @@
     top: 0;
     left: 0;
 }
+html {
+    overflow: hidden;
+}
 @font-face {
     font-family: 'Montserrat', sans-serif;
     src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,600;0,900;1,300&display=swap')
