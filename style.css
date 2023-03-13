@@ -5,7 +5,7 @@
     left: 0;
 }
 html {
-    overflow: hidden;
+    overflow-y: hidden;
 }
 ::-webkit-scrollbar {
     width: 0;
