@@ -4,6 +4,9 @@
     top: 0;
     left: 0;
 }
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
 body {
     min-height: 100vh;
     display: flex;
@@ -60,7 +63,6 @@ video {
     width: 100%;
     height: 100%;
 }
-
 .videos-container {
     max-width: 2000px;
     position: relative;
@@ -69,14 +71,12 @@ video {
 .mySlides {
     display: inline-table;
 }
-
 .social-container {
     max-width: 1000px;
     position: relative;
     margin: auto;
     padding: 300px;
 }
-
 footer {
     margin-top: auto;
 }
